@@ -32,6 +32,10 @@
 
      transition: 0.3s;
 }
+.card-servicos:hover {
+    transform: translateY(-10px);
+}
+
 
 .card-servicos img {
     width: 120px;
@@ -63,5 +67,5 @@
 }
 .card-servicos a:hover {
     color: #25d366;
-    transform: translateY(-10px);
+    
 }
