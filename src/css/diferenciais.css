@@ -1,0 +1,23 @@
+.diferenciais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.card-diferencial {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-diferencial img {
+    width: 45px;
+    height: 45px;
+}
+.ccard-diferencial h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #333333;
+    margin: 0;
+}

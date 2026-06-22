@@ -1,0 +1,81 @@
+
+.banner-principal {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 20px;
+
+    background-color: #f8f9fa;
+    border-radius: 30px;
+    
+}
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 550px;
+}
+
+.banner-info h2 {
+    font-size: 1rem;
+    color: #1c7c68;
+    text-transform: uppercase;
+    margin: 0;
+}
+.banner-info h1 {
+    font-size: 3.5rem;
+    color: #1a1a1a;
+    line-height: 1.2;
+    margin: 0;
+}
+.banner-info p {
+    font-size: 1.2rem;
+    color: #555555;
+    line-height: 1.8;
+    margin: 0;
+}
+.banner-botoes {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.btn-agendar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 13px 25px;
+    background-color: #25d366;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.btn-agendar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+}
+.btn-servicos {
+    padding: 15px 25px;
+    border: 2px solid #1c7c68;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1c7c68;
+}
+.banner-conteudo {
+    display: flex;
+    align-items: center;
+}
+.banner-conteudo img {
+    max-width: 350px;
+    height: auto;
+    border-radius: 25px;
+}
