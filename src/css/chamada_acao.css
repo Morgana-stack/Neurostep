@@ -1,0 +1,62 @@
+.chamada-acao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 1800px;
+    
+    padding: 15px 50px;
+
+    background: linear-gradient(90deg,
+            #06223d,
+            #0c5f5d);
+}
+
+.chamada-acao h2 {
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0;
+}
+
+.chamada-acao p {
+    font-size: 0.9rem;
+    color: #cdb5e1;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.cta-botao {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 12px 45px;
+
+    background-color: #25d366;
+    color: #ffffff;
+
+    text-decoration: none;
+    font-size: .9rem;
+    font-weight: 600;
+
+    border-radius: 10px;
+
+}
+
+.cta-botao img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.cta-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-info {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
