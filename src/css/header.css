@@ -4,6 +4,7 @@
     min-height: 90px;
     display: flex;
     justify-content: space-between;
+    font-family: sans-serif;
     align-items: center;
     padding: 10px;
     max-width: 100%;
@@ -56,6 +57,10 @@ main {
     font-size: 1.2rem;
     font-weight: 500;
 }
+.navbar a:hover {
+    font-weight: bold;
+    color: #007f5f;
+}
 .btn-whatsapp {
     display: flex;
     align-items: center;
@@ -68,7 +73,9 @@ main {
     border-radius: 10px;
     font-weight: 600;
     white-space: nowrap;
-
+}
+.btn-whatsapp:hover {
+    background-color: #007f5f;
 }
 .btn-whatsapp img {
     width: 25px;

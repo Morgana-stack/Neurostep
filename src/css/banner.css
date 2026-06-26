@@ -1,68 +1,90 @@
-
 .banner-principal {
-    max-width: 1800px;
+    max-width: 100%;
     margin: 0 auto;
+    font-family: sans-serif;
 
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-around;
 
-    padding: 20px;
+    padding: 40px 10%;
 
     background-color: #f8f9fa;
     border-radius: 30px;
-    
-}
-.banner-info {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    max-width: 550px;
+
 }
 
-.banner-info h2 {
-    font-size: 1rem;
-    color: #1c7c68;
-    text-transform: uppercase;
-    margin: 0;
+.banner-principal h1 {
+    font-size: 38px;
+    color: #111111;
+    margin: 10px 0;
 }
+
+.banner-info {
+    flex: 1;
+    max-width: 55%;
+}
+
 .banner-info h1 {
-    font-size: 3.5rem;
+    font-size: 50px;
+    line-height: 1.15;
     color: #1a1a1a;
-    line-height: 1.2;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
-.banner-info p {
-    font-size: 1.2rem;
+
+.banner-subtitulo {
+    color: #007f5f;
+    font-weight: bold;
+    font-size: 18px;
+    initial-letter: 1px;
+}
+
+.destaque-verde {
+    color: #007f5f;
+}
+
+.banner-descricao {
+    font-size: 15px;
+    line-height: 1.5;
     color: #555555;
-    line-height: 1.8;
-    margin: 0;
+    max-width: 500px;
+    margin-bottom: 30px;
 }
+
 .banner-botoes {
     display: flex;
     gap: 20px;
     align-items: center;
 }
+
+.btn-agendar:hover {
+    background-color: #007f5f;
+}
+
 .btn-agendar {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 13px 25px;
+    padding: 10px 24px;
     background-color: #25d366;
     color: white;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 500;
     border-radius: 20px;
 }
+
 .btn-agendar img {
     width: 30px;
     height: 30px;
     border-radius: 30px;
 }
+
 .btn-servicos {
-    padding: 15px 25px;
+    background-color: transparent;
+    padding: 12px 24px;
     border: 2px solid oklch(37.8% 0.077 168.94);
     border-radius: 20px;
     text-decoration: none;
@@ -70,10 +92,13 @@
     font-weight: 600;
     color: oklch(37.8% 0.077 168.94);
 }
+
 .banner-conteudo {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
+
 .banner-conteudo img {
     max-width: 350px;
     height: auto;
