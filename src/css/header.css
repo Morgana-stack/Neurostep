@@ -56,10 +56,14 @@ main {
     color: #333333;
     font-size: 1.2rem;
     font-weight: 500;
+
+    transition: color 0.3s ease,
+            transform 0.3s ease;
 }
+
 .navbar a:hover {
-    font-weight: bold;
     color: #007f5f;
+    transform: translateY(-2px);
 }
 .btn-whatsapp {
     display: flex;
