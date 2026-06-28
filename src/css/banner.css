@@ -14,12 +14,6 @@
 
 }
 
-.banner-principal h1 {
-    font-size: 38px;
-    color: #111111;
-    margin: 10px 0;
-}
-
 .banner-info {
     flex: 1;
     max-width: 55%;
@@ -38,7 +32,8 @@
     color: #007f5f;
     font-weight: bold;
     font-size: 18px;
-    initial-letter: 1px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
 }
 
 .destaque-verde {
@@ -97,14 +92,17 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 300px;
+
 }
 
-.banner-conteudo img {
-    max-width: 350px;
+.banner-img-profissional {
+    background: #007f5f;
+    max-width: 358px;
     height: auto;
     border-radius: 25px;
 
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black 50%);
-        mask-image: linear-gradient(to right, transparent 0%, black 50%);
-    
+    mask-image: linear-gradient(to right, transparent 0%, black 50%);
+
 }

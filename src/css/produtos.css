@@ -1,6 +1,6 @@
 .produtos {
-    padding: 30px 0;
-    font-family: sans-serif;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .produtos h2 {
@@ -15,52 +15,60 @@
     justify-content: center;
     align-items: stretch;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .card-produto {
     display: flex;
     align-items: center;
     gap: 20px;
-   
-    width: 400px;
+    max-width: 550px;
+    max-height: 280px;
     padding: 25px 60px;
-
-    background-color: #ffffff; 
+    background-color: #ffffff;
     border: 1px solid #e5e7eb;
     border-radius: 20px;
 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.20);
-
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
     transition: 0.3s;
 }
+
 .card-produto:hover {
     transform: translateY(-8px);
 
 }
+
 .card-produto img {
-    width: 120px;
-    height: 120px;
-   
+    width: 150px;
+    height: 150px;
+
     object-fit: contain;
 }
-.card-produto h3 {
+
+.produto-subtitulo {
     font-size: 1.4rem;
     color: #0f172a;
     font-weight: 700;
     margin-bottom: 15px;
+    white-space: nowrap;
 }
-.card-produto p {
+
+.produto-descricao {
     font-size: 1.1rem;
     color: #64748b;
     line-height: 1.6;
+    margin-bottom: 20px;
 }
-.card-produto a {
+
+.produto-saiba-mais {
     text-decoration: none;
     color: #1c7c68;
     font-weight: 600;
+   
 
     transition: .3s;
 }
+
 .card-produto a:hover {
     color: #25d366;
     transform: translateY(-10px);

@@ -1,5 +1,5 @@
 
-.container {
+.header-container {
     width: 100%;
     min-height: 90px;
     display: flex;
@@ -22,36 +22,36 @@
 main {
     padding-top: 90px;
 }
-.header-logo {
+.header-logo-box {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-.header-logo  img{
+.header-logo-img {
   width: 55px;
   height: 55px;
   border-radius: 20px;
 }
-.logo {
+.header-titulo {
     font-size: 2rem;
     font-weight: bold;
     margin: 0;
 }
 
-.texto-logo p {
+.header-subtitulo {
     font-size: 0.9rem;
     margin: 0;
     letter-spacing: 2px;
        
 }
-.navbar {
+.header-navbar {
     display: flex;
     align-items: center;
     gap: 20px;
     flex: 1;
     justify-content: center;
 }
-.navbar a {
+.header-navbar a {
     text-decoration: none;
     color: #333333;
     font-size: 1.2rem;
@@ -61,11 +61,11 @@ main {
             transform 0.3s ease;
 }
 
-.navbar a:hover {
+.header-navbar a:hover {
     color: #007f5f;
     transform: translateY(-2px);
 }
-.btn-whatsapp {
+.btn-whatsapp-header {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -78,10 +78,10 @@ main {
     font-weight: 600;
     white-space: nowrap;
 }
-.btn-whatsapp:hover {
+.btn-whatsapp-header:hover {
     background-color: #007f5f;
 }
-.btn-whatsapp img {
+.btn-whatsapp-header img {
     width: 25px;
     height: 25px;
     border-radius: 30px;
