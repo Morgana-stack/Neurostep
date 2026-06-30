@@ -1,0 +1,11 @@
+
+
+.banner-conteudo img {
+    background: #007f5f;
+    max-width: 550px;
+    height: auto;
+    border-radius: 25px;
+
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 50%);
+    mask-image: linear-gradient(to right, transparent 0%, black 50%);
+}
